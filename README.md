@@ -1,1 +1,0 @@
-# tejakanchinadam.github.io
