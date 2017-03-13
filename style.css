@@ -46,7 +46,7 @@ div.bg1:before{
   background-color: #299DB6;
 }
 #headerblob {
-  position: relative;
+  position: absolute;
   left: 20%;
   top: 165px;
   width: 80%;
