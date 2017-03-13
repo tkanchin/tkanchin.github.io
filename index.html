@@ -1,17 +1,384 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-	<title>Teja Kanchinadam</title>
-	<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
-	<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Fixed fullscreen backgrounds - fullPage.js</title>
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" type="text/css" href="fullPage.js/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="fullPage.js/examples/examples.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="fullPage.js/vendors/scrolloverflow.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="fullPage.js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="fullPage.js/examples/examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false,
+				//css3:false,
+				//autoScrolling: false,
+				scrollOverflow: true
+
+			});
+		});
+	</script>
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#sectionT,
+	#section1,
+	#sectionP,
+	#section2,
+	#section3{
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* Defining each sectino background and styles
+	* --------------------------------------- */
+
+
+	div.myClass0:before {
+  		background: url(images/city.jpg) no-repeat fixed;
+  		content: '';
+  		z-index: -1;
+  		width: 100%;
+  		height: 100%;
+  		display: block;
+  		background-size: cover;
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+ 	}
+
+	#sectionT{
+		background-color: #565759;
+	}
+
+	/*
+	div.myClass1:before {
+  		background: url(images/research.jpg) no-repeat;
+  		position: absolute;
+  		content: '';
+  		z-index: -200;
+  		width: 100%;
+  		height: 100%;
+  		display: block;
+  		background-size: cover;
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(2px);
+ 	}
+ 	*/
+
+ 	.myClass1{
+ 		background-color: #565759;
+ 	}
+ 	
+	
+	#section2{
+		background-image: url(images/research.jpg);
+		padding: 0 0 0 0;
+	}
+
+	#section3{
+		background-image: url(imgs/bg4.jpg);
+		padding: 6% 0 0 0;
+	}
+	#section3 h1{
+		color: #000;
+	}
+
+
+	/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url(imgs/bg2.jpg);
+		padding: 6% 0 0 0;
+	}
+	#slide2{
+		background-image: url(imgs/bg5.jpg);
+		padding: 6% 0 0 0;
+	}
+	
+	.timelineSpacing{
+		padding-top: 5%; 
+	}
+
+	.bio{
+		padding-left: 25%;
+		padding-right: 25%;
+		padding-top: 20px;
+		font-size: 10px;
+	}
+
+	</style>
+
 </head>
 <body>
-	<div id="root"></div>
-	<script>
-		ReactDOM.render(
-  		<h1>Hello, world</h1>,
-  		document.getElementById('root')
-		);
-	</script>
+
+<div id="fullpage">
+	<div class="section myClass0" id="section0">
+			<div id="headerblob">
+    			<img src="images/me.jpg" class="img-circle imgme">
+    			<div id="headertext">
+      				<div id="htname">Teja Kanchinadam</div>
+      				<div id="htdesc">UNC Charlotte Computer Science Master's Student</div>
+      				<div id="htem">kanchinadamteja _at_ gmail.com</div>
+      				<div id="icons">
+        				<div class="svgico">
+          					<a href="https://github.com/tkanchin"><img src="images/octocat.svg" width="56px"></a>
+        				</div>
+        				<div class="svgico">
+          					<a href="https://www.linkedin.com/in/kanchinadamteja"><img src="images/linkedin.svg" width="63px"></a>
+        				</div>
+        				<div class="svgico">
+          					<a href="#"><img src="images/blog.svg" width="48px"></a>
+        				</div>
+        				<div class="svgico">
+          					<a href="http://176.32.230.44/timehascome.com/teja_resume"><img src="images/CV.svg" width="150px"></a>
+        				</div>
+      				</div>
+    			</div>
+
+		</div>
+	</div>
+
+	<div class="section" style="background-color: #ffffff;">
+		
+		<div class="container">
+		<br><br><br><br><br>
+			<img src="images/profile_clip.png" style="width: 15%; height: 25%;" />
+
+			<div class="bio">
+				<p>I graduated with a Masters in Computer Science from <a href="www.uncc.edu">UNC Charlotte</a> in December 2016</p>
+
+				<p>Along with my Masters, I worked as a Full Stack Engineer for <a href="http://starscomputingcorps.org/">Stars Computing Corps</a></p>
+
+				<p>My academic research focussed on Data Science and particularly in Machine Learning. I am interested in Engineering and I always try staying close to Engineering and AI space.</p>
+
+				<p>I interned as a Research Engineer Intern at <a href="http://www.technicolor.com/en/innovation/research-innovation">Technicolor Corporate Research</a> in the Summer 2016</p>
+
+				<p>I spent two years at <a href="https://www.cognizant.com/">Cognizant Technology Solutions</a> working on various infrastructure & enterprise products</p>
+
+			</div>
+		</div>
+
+	<!--</div>
+
+	 <div class="section" id="sectionT"> -->
+		<div class="container timelineSpacing">
+  			<div id="timeline">
+    			<div class="timelineitem">
+      				<div class="tdate">Jan '16 - Dec '16</div>
+      				<div class="ttitle">Full Stack Engineer at <a href="http://starscomputingcorps.org/">UNC Charlotte: Stars Computing Corps</a></div>
+      				<div class="tdesc">Development and Maintenance of Stars Community websites</div>
+    			</div>
+    			<div class="timelineitem">
+      				<div class="tdate">May '16 - Aug '16</div>
+      				<div class="ttitle">Research Engineer Intern at <a href="http://www.technicolor.com/en/innovation/research-innovation">Technicolor Corporate Research</a></div>
+      				<div class="tdesc">Full Stack: Extracted data from various video apps of Android based OTT boxes</div>
+    			</div>
+    			<div class="timelineitem">
+      				<div class="tdate">Aug'15 - Dec '16</div>
+      				<div class="ttitle">University of North Carolina Charlotte: Master's Degree</div>
+      				<div class="tdesc">Major in Computer Science</div>
+    			</div>
+    			<div class="timelineitem">
+     				<div class="tdate">Nov '13 - Jun '15</div>
+      				<div class="ttitle">Software Engineer at <a href="https://www.cognizant.com/">Cognizant Technology Solutions</a></div>
+      				<div class="tdesc">Enterpise SAAS and Internal Infrastructure Products</div>
+    			</div>
+    			<div class="timelineitem">
+      				<div class="tdate">Sep '09 - Jun '13</div>
+      				<div class="ttitle">Jawaharlal Nehru Technological University: Bachelor's Degree</div>
+      				<div class="tdesc">Double major in Electronics and Communications</div>
+    			</div>
+  			</div>
+		</div>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+
+	</div>
+
+	<div class="section myClass1">
+		<div class="container">
+  			<p style="color: white; font-size:50px; font-weight: 900;padding-top:5%; padding-bottom: 3%; ">Research</p>
+  			<div class="research1">
+  				<p style="color: white; font-size:20px;font-weight: 900;padding-left: 25%; padding-right: 25%;">I've been fortunate to research under Prof <a href="https://cis.temple.edu/~payton/">Jamie Payton</a> in Activity Recognition and Machine Learning throughout my master's. A great learning experience which cleared many of my confusions</p>
+
+  			</div>
+  			<div style="padding-top: 3%; padding-bottom: 1%;">
+  				<p style="color: white; font-size:20px;font-weight: 900;padding-left: 25%; padding-right: 25%;">I have published a Thesis too..</p>
+  				<a href="http://search.proquest.com/docview/1875195344"><img src="images/thesis.jpg" class="img-circle imgen" style="width: 15%; height: 15%;"></a>
+  			</div>
+  			<div>
+  				<p style="color: white; font-size:18px;font-weight: 600;">Master's Thesis: A Framework for the Use of Wearables to Enable Study of Stress</p>
+  				<h4 style="color: white; font-weight: 300;">Teja Kanchinadam, Jamie Payton, Yu Wang, Sara Levens</h4>
+  			</div>
+  		</div>
+
+  		<br><br><br>
+	</div>
+
+	<!--
+	<div class="section" id="section1">
+		<div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
+		<div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+	</div>
+
+
+	<div class="section" id="section2">
+		<div id="header" class="bg1"></div>
+	</div>
+
+	-->
+	<div class="section">
+
+	<br><br>
+
+	<div class="container">
+		
+		<p style="color: black; font-size:50px;font-weight: 900;padding-top:5%; padding-bottom: 3%;">Projects</p>
+
+	</div>
+
+		<div id="moreprojects">
+    		<div class="row">
+      			<div class="col-md-4">
+        			<div class="pp">
+          				<a href="images/DW_Project_Report.pdf">
+            				<img src="images/calorie.jpg" class="imges img-circle">
+          				</a>
+          				<div class="ppt">Calorie Management System</div>
+          				<div class="ppd">
+          					It is a mobile application which helps users to keep track of thier calories consumed/burnt and users can also view the reports. I have coded a native Android application with JAVA, MySQL datawarehouse (hosted on AWS) and PHP web-services with RESTful JSON.
+          				</div>
+        			</div>
+      			</div>
+
+      			<div class="col-md-4">
+        			<div class="pp">
+          				<a href="https://www.github.com/tkanchin/wikipedia-vandalism">
+            				<img src="images/wiki_vandal.jpg" class="imges img-circle">
+          				</a>
+          				<div class="ppt">Wikipedia Vandalism Visualization</div>
+          				<div class="ppd">
+          					To visualize the behavior of vandal users and as a pre-processing to data mining, I have coded this visualiation using d3.js to foresee the outliers and to get insights about the data (Wiki edits).
+          				</div>
+        			</div>
+      			</div>
+
+      			<div class="col-md-4">
+      				<div class="pp">
+        				<a href="https://www.github.com/tkanchin/prefix-search">
+          					<img src="images/dictionary.jpg" class="imges img-circle">
+        				</a>
+        				<div class="ppt">Prefix search</div>
+        				<div class="ppd">
+          					A naive way of searching words in a dictionary is using Hash Tables. But, it is expensive in terms of both space and time. I have coded a prefix tree (trie) to search words in a dictionary with prefix. The operations such as dictionary construction, search and add/delete/edit are optimized to logarithmic time.
+        				</div>
+      				</div>
+    			</div>
+    	</div>
+
+    	<div class="row">
+
+      		<div class="col-md-4">
+        		<div class="pp">
+          			<a href="http://search.proquest.com/docview/1875195344">
+            			<img src="images/thesis_code.png" class="imges img-circle">
+          			</a>
+          			<div class="ppt">Stress Classification</div>
+          			<div class="ppd">
+          				This is my Thesis project. I have performed data analysis, feature engineering on a time-domain dataset consisiting of millions of rows and classified stress with Semi-Supervised Learning (Co-training & Self-training) with Gradient Tree Boosting. I was first in the literature of stress to classify stress in real-world conditions by the use of wearables.
+          			</div>
+        		</div>
+      		</div>
+
+      		<div class="col-md-4">
+        		<div class="pp">
+          			<a href="images/ml_report.pdf">
+            			<img src="images/image_classification.jpg" class="imges img-circle">
+          			</a>
+          			<div class="ppt">Image Classification</div>
+          			<div class="ppd">
+            			Optimally classifying images is an open research problem. I have performed multi-class image classification on a data-set consiting of 80,000 high quality images using KNN, Template Matching, Bag of Words, MLP, custom-made CNN and InceptionV3 model and showcased the results.
+        			</div>
+        		</div>
+      		</div>
+
+      		<div class="col-md-4">
+        		<div class="pp">
+          			<a href="https://www.github.com/tkanchin/AndroidApps">
+            			<img src="images/android.jpg" class="imges img-circle">
+          			</a>
+          			<div class="ppt">Android Apps</div>
+          			<div class="ppd">
+            			I have coded over 20+ native mobile applications as part of my learning process which cover all the basic fundamentals of Android - UI/UX design, JSON/XML parsing, Dependency Injection (Dagger 2), Basic/Advanced UI elements, SQLite, Object databases (FireBase), etc. My aim is to expand these projects over time. e.g: create a SnapChat lool alike, or create hybrid applications on IOS/Android platforms. Tutorials are coming soon..
+          			</div>
+        		</div>
+      		</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-4 col-md-offset-4 text-center"> 
+        			<div class="pp">
+          				<div class="ppt">Even more...</div>
+          				<div style="font-size: 18px;color: #444;font-weight: 300;">
+            			I have engineered several full stack web applications, coded scripts for compressing/decompressing files, developed IOS/WatchOS applications, developed background services on Android, statistical analysis projects, Kaggle challenges, Coding competitions, Hackathons, etc.
+          				</div>
+        			</div>
+  				</div>
+  			</div>
+  		</div>
+
+  	<footer id="footer" class="footer"> 
+  		<div class="container"> 
+  			<div class="row"> 
+  				<div class="col-md-4 col-md-offset-4 text-center"> 
+  					<hr> 
+  					<p class="lead">Copyright &copy; Teja Kanchinadam 2017</p> 
+  				</div> 
+  			</div> 
+  		</div> 
+  	</footer>
+
+	</div>
+
+</div>
+
 </body>
 </html>
