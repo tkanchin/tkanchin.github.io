@@ -32,26 +32,9 @@
 	</script>
 	<style>
 
-	/* Style for our header texts
-	* --------------------------------------- */
-	h1{
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		margin:0;
-		padding:0;
-	}
-
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-
-
 	/* Backgrounds will cover all the section
 	* --------------------------------------- */
-  #section0,
+
 	#sectionT,
 	#section1,
 	#sectionP,
@@ -81,11 +64,11 @@
  	}
   */
 
-  #section0{
+  .myClass{
       background-image:url('images/city.jpg');
       background-repeat: no-repeat;
       background-position: center center;
-      background-size: auto 100%;
+      background-size: cover;
   }
 
 	#sectionT{
@@ -135,7 +118,7 @@
 <body>
 
 <div id="fullpage">
-	<div class="section" id="section0">
+	<div class="section myClass" id="header" >
 			<div id="headerblob">
     			<img src="images/me.jpg" class="img-circle imgme">
     			<div id="headertext">
