@@ -11,9 +11,6 @@ html, body {
   font-weight: 300;
 }
 
-.bg2 {
-  background-color: #299DB6;
-}
 #headerblob {
   position: absolute;
   top: 80px;
@@ -73,10 +70,6 @@ ul {
 }
 li {
   display: inline;
-}
-
-#centerTimeline{
-  text-align: center;
 }
 
 .svgico {
@@ -164,20 +157,6 @@ li {
     font-size: 16px;
   }
 }
-.thigh {
-  color: #070;
-}
-.quote {
-  color: #777;
-  text-align: center;
-  font-style: italic;
-  font-weight: 300;
-  padding: 90px 0 50px;
-}
-.quote blockquote {
-  font-size: 28px;
-}
-
 
 .imgen{
   border: 3px solid white;
@@ -210,55 +189,6 @@ li {
   transform: scale(1.1);
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
-}
-
-.pubt {
-  font-size: 22px;
-  font-weight:400;
-  color: #000;
-}
-@media (max-width: 768px) {
-  .pubt {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .pubd {
-    text-align: justify;
-  }
-}
-.pubd {  
-  font-size: 18px;
-  font-weight: 300;
-}
-.pubimg {
-  text-align: center;
-}
-.pubimg img {
-  max-width: 100%;
-}
-.puba {
-  font-size: 18px;
-  color: #900;
-}
-.pubv {
-  color: #090;
-  font-size: 16px;
-}
-.publ {
-  padding-top: 10px;
-}
-.publ li {
-  border: 1px solid #CCC;
-  padding: 5px;
-  margin: 5px 2px;
-  display: inline-block;
-}
-.pubwrap {
-  padding-bottom: 20px;
-  margin-bottom: 50px;
-  padding-top: 10%;
-  border-bottom: 1px solid #DDD;
 }
 
 .pp {
