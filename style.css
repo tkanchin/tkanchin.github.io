@@ -212,27 +212,6 @@ li {
   -webkit-transition: all 0.2s;
 }
 
-h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 50px;
-  padding: 30px 0px 40px;
-}
-#sitefooter {
-  height: 300px;
-  margin-top: 200px;
-  background-color: #F1F3F4;
-}
-hr.soft {
-  border: 0;
-  height: 1px;
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  padding: 0;
-  margin: 0;
-}
 .pubt {
   font-size: 22px;
   font-weight:400;
@@ -298,13 +277,6 @@ hr.soft {
   padding-right: 10%;
 }
 
-/*
-.pv img {
-  border: 3px solid white;
-  box-shadow: #BBB 0px 0px 5px 0px;
-}
-*/
-
 .imgb {
   max-width: 100%;
   border-radius: 5px;
@@ -321,7 +293,6 @@ hr.soft {
 }
 .ppd {
   font-size: 18px;
-  /*text-align: justify;*/
   color: #444;
   font-weight: 350;
 }
@@ -344,66 +315,7 @@ hr.soft {
   padding-left: 5%;
 }
 
-#morepubs {
-  display: none;
-}
 
 .hacky{
   display: none;
-}
-.showmore {
-  border: 1px solid #CCC;
-  padding: 10px;
-  font-size: 24px;
-  width: 200px;
-  text-align: center;
-  color: #999;
-  margin: 0px auto;
-  cursor: pointer;
-  margin-bottom: 50px;
-}
-.showmore:hover {
-  color: #333;
-}
-
-.miscitem {
-  margin: 10px 0px 60px;
-}
-.miscimg img {
-  height: 50px;
-  float: left;
-  margin-right: 10px;
-  margin-top: -10px;
-}
-.colorrect {
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin-right: 10px;
-  margin-top: -10px;
-  background-color: #444;
-}
-.miscd {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.umisc {
-  font-size: 16px;
-  font-weight: 300;
-  color: #555;
-}
-.ctr {
-  text-align: center;
-  margin-bottom: 40px;
-}
-.hht {
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-weight: 300;
-}
-.ts {
-  font-size: 14px;
-  margin-bottom: 5px;
-  font-weight: 300;
 }
