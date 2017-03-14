@@ -189,6 +189,11 @@ li {
   height: 200px;
 }
 
+.imgez{
+  width: 50px;
+  height: 50px;
+}
+
 .imges:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -286,6 +291,21 @@ hr.soft {
   border: 3px solid #FFF;
   box-shadow: #BBB 0px 0px 5px 0px;
 }
+
+.pv {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/*
+.pv img {
+  border: 3px solid white;
+  box-shadow: #BBB 0px 0px 5px 0px;
+}
+*/
+
 .imgb {
   max-width: 100%;
   border-radius: 5px;
@@ -302,12 +322,21 @@ hr.soft {
 }
 .ppd {
   font-size: 18px;
-  text-align: justify;
+  /*text-align: justify;*/
   color: #444;
-  font-weight: 300;
+  font-weight: 350;
 }
+
 .pp blockquote {
   text-align: right;
+}
+
+
+.pvd {
+  padding-top: 20px;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
 }
 
 #moreprojects{
