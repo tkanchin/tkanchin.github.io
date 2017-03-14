@@ -16,22 +16,22 @@ html, body {
 }
 #headerblob {
   position: absolute;
-  left: 20%;
-  top: 165px;
-  width: 80%;
+  /*left: 20%;*/
+  top: 80px;
+  width: 100%;
 }
 #headertext {
   font-size: 26px;
   font-weight: 400;
-  margin-top: 50px;
-  margin-left: 220px;
+  /*margin-top: 50px;
+  margin-left: 220px;*/
 }
 .imgme {
   border: 3px solid white;
   width:20%;
   height:20%;
   /* box-shadow: #AAA 0px 0px 4px 0px; */
-  float: left;
+  /*float: left;*/
 }
 #htname {
   font-size: 46px;
