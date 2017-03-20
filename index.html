@@ -5,69 +5,20 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Teja Kanchinadam Private Website</title>
 	<meta name="Resource-type" content="Document" />
-	<link rel="stylesheet" type="text/css" href="fullPage.js/jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="fullPage.js/examples/examples.css" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<link rel="stylesheet" type="text/css" href="style-1.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-	<script type="text/javascript" src="fullPage.js/vendors/scrolloverflow.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-	<script type="text/javascript" src="fullPage.js/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="fullPage.js/examples/examples.js"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				verticalCentered: false,
-				css3:false,
-				scrollOverflow: true
-
-			});
-		});
-	</script>
-	<style>
-
-  .myClass{
-      background-image:url('images/city.jpg');
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-  }
-
-  #sectionLast{
-    background-color: #35383f;
-  }
-
- 	.myClass1{
- 		background-color: #35383f;
- 	}
- 	
-
-	/*Adding background for the slides
-	* --------------------------------------- */
-	
-	.timelineSpacing{
-		padding-top: 5%; 
-	}
-
-	.bio{
-		padding-left: 25%;
-		padding-right: 25%;
-		padding-top: 20px;
-		font-size: 10px;
-	}
-
-	</style>
 
 </head>
 <body>
 
-<div id="fullpage">
-	<div class="section myClass" id="header" >
+<div>
+	<div class="myClass" id="header" >
 			<div id="headerblob">
     			<img src="images/me.jpg" class="img-circle imgme">
     			<div id="headertext">
@@ -94,24 +45,26 @@
 		</div>
 	</div>
 
-	<div class="section" style="background-color: #ffffff;">
+  <!--Background block and timeline goes here-->
+
+	<div style="background-color: #ffffff;text-align: center;">
 
   <div class="container">
 		<br><br><br><br><br>
 			<img src="images/profile_clip.png" style="width: 15%; height: 25%;" />
 
 			<div class="bio">
-				<p>Graduated with a Masters in Computer Science from <a href="www.uncc.edu">UNC Charlotte</a> in December 2016</p>
+				<p class="bioFont">Graduated with a Masters in Computer Science from <a href="www.uncc.edu">UNC Charlotte</a> in December 2016</p>
 
-				<p>Along with my Masters, I worked as a Full Stack Engineer for <a href="http://starscomputingcorps.org/">Stars Computing Corps</a> for a year</p>
+				<p class="bioFont">Along with my Masters, I worked as a Full Stack Engineer for <a href="http://starscomputingcorps.org/">Stars Computing Corps</a> for a year</p>
 
         <!--
 				<p>My academic research focussed on Data Science and particularly in Machine Learning. I am interested in Engineering and I always try staying close to Engineering and AI space.</p>
         -->
 
-				<p>I was a Research Engineer Intern at <a href="http://www.technicolor.com/en/innovation/research-innovation">Technicolor Corporate Research</a> in the Summer of 2016</p>
+				<p class="bioFont">I was a Research Engineer Intern at <a href="http://www.technicolor.com/en/innovation/research-innovation">Technicolor Corporate Research</a> in the Summer of 2016</p>
 
-				<p>I spent two years at <a href="https://www.cognizant.com/">Cognizant Technology Solutions</a> working on various infrastructure & enterprise products</p>
+				<p class="bioFont">I spent two years at <a href="https://www.cognizant.com/">Cognizant Technology Solutions</a> working on various infrastructure & enterprise products</p>
 
 			</div>
       </div>
@@ -152,9 +105,11 @@
 
 	</div>
 
-	<div class="section myClass1">
-		<div class="container">
-  			<p style="color: white; font-size:50px; font-weight: 900;padding-top:5%; padding-bottom: 3%; ">Research</p>
+  <!--Research block starts from here-->
+
+	<div class="researchBlock">
+		<div class="container" style="text-align: center;">
+  			<p style="color: white; font-size:50px; font-weight: 900;padding-top:5%; padding-bottom: 3%;">Research</p>
   			<div class="research1">
   				<p style="color: white; font-size:20px;font-weight: 900;padding-left: 25%; padding-right: 25%;">I've been fortunate to research under Prof <a href="https://cis.temple.edu/~payton/">Jamie Payton</a> in Activity Recognition and Machine Learning throughout my Master's.</p>
 
@@ -172,13 +127,16 @@
   		<br><br><br>
 	</div>
 
-	<div class="section">
+
+  <!--Projects stars from here-->
+
+	<div>
 
 	<br><br>
 
 	<div class="container">
 		
-		<p style="color: black; font-size:50px;font-weight: 900;padding-top:5%; padding-bottom: 3%;">Projects</p>
+		<p style="color: black; font-size:50px;font-weight: 900;padding-top:5%; padding-bottom: 3%;text-align: center;">Projects</p>
 
 	</div>
 
@@ -279,13 +237,15 @@
 
   </div>
 
-  <div class="section" id="sectionLast">
+  <!--About me section and footer from here-->
+
+  <div id="sectionLast">
 
   <br><br>
 
   <div class="container">
     
-    <p style="color: white; font-size:50px;font-weight: 900;padding-top:5%; padding-bottom: 3%;">A Bit About Myself</p>
+    <p style="color: white; font-size:50px;font-weight: 900;padding-top:5%; padding-bottom: 3%;text-align: center;">A Bit About Myself</p>
 
   </div>
 
@@ -370,6 +330,7 @@
       </div> 
     </footer>
 
+</div>
 </div>
 
 </body>

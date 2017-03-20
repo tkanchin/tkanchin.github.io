@@ -19,12 +19,49 @@ html, body {
 #headertext {
   font-size: 26px;
   font-weight: 400;
+  text-align: center;
 }
+
+
+.myClass{
+      background-image:url('images/city.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+  }
+
+  #sectionLast{
+    background-color: #35383f;
+  }
+
+  .researchBlock{
+    background-color: #35383f;
+  }
+    
+  .timelineSpacing{
+    padding-top: 5%; 
+  }
+
+  .bio{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    font-size: 10px;
+  }
+
+  .bioFont{
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+
 .imgme {
   border: 3px solid white;
   width:200px;
   height:200px;
   box-shadow: #AAA 0px 0px 4px 0px;
+  display: block;
+  margin: auto;
 }
 #htname {
   font-size: 46px;
