@@ -24,7 +24,7 @@ html, body {
 
 
 .myClass{
-      background-image:url('images/city.jpg');
+      background-image:url('../images/city.jpg');
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
