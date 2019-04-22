@@ -5,15 +5,14 @@ html, body {
   color: #444;
 }
 
-#header {
-  width: 100%;
-  height: 750px;
-  font-weight: 300;
+.fitToScreen {
+    height: 100vh;
+    overflow: auto;
 }
 
 #headerblob {
   position: absolute;
-  top: 100px;
+  top: 25%;
   width: 100%;
 }
 #headertext {
@@ -21,7 +20,6 @@ html, body {
   font-weight: 400;
   text-align: center;
 }
-
 
 .myClass{
       background-image:url('../images/city.jpg');
@@ -57,8 +55,8 @@ html, body {
 
 .imgme {
   border: 3px solid white;
-  width:200px;
-  height:200px;
+  width:20%;
+  height:20%;
   box-shadow: #AAA 0px 0px 4px 0px;
   display: block;
   margin: auto;
@@ -69,13 +67,13 @@ html, body {
   color: #e8eaed;
 }
 #htdesc {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 300;
   margin-top: -6px;
   color: #e8eaed;
 }
 #htem {
-  font-size: 14px;
+  font-size: 22px;
   font-weight: 300;
   color: #e8eaed;
 }
@@ -284,4 +282,60 @@ li {
 
 .hacky{
   display: none;
+}
+
+.pubt {
+  font-size: 22px;
+  font-weight:400;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .pubt {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .pubd {
+    text-align: justify;
+  }
+}
+.pubd {  
+  font-size: 18px;
+  font-weight: 300;
+}
+.pubimg {
+  text-align: center;
+}
+.pubimg img {
+  max-width: 100%;
+}
+.puba {
+  font-size: 18px;
+  color: #900;
+}
+.pubv {
+  color: #090;
+  font-size: 16px;
+}
+.publ {
+  padding-top: 10px;
+}
+.publ li {
+  border: 1px solid #CCC;
+  padding: 5px;
+  margin: 5px 2px;
+  display: inline-block;
+}
+.pubwrap {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #DDD;
+}
+.pub {
+}
+
+.fake-link {
+    color: #0000FF;
+    text-decoration: underline;
+    cursor: pointer;
 }
