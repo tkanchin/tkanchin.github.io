@@ -69,11 +69,11 @@ h2 {
     }
 }
 #dpic img {
-    padding-top: 80px;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
 }
+
 .iico {
     width: 40px;
     height: 40px;
